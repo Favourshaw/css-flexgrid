@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Big Shoulders Display';
+    
+
+}
+p {
+    font-family: 'Lexend Deca';
+}
+
+.box{
+   
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 60%;
+   
+}
+
+
+.orange {
+    background-color: hsl(31, 77%, 52%);
+    padding: 1em;
+    flex: 30%;
+    color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 10px 0px 0px 10px;
+    
+}
+.cyan {
+    background-color: hsl(184, 100%, 22%);
+    padding: 1em;
+    flex: 30%;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+
+.darkcyan {
+    background-color: hsl(179, 100%, 13%);
+    padding: 1em;
+    flex: 30%;
+    color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 1em;
+    border: transparent;
+    border-radius: 29px;
+}
+
+.orbutton {
+    color:hsl(31, 77%, 52%) ;
+}
+
+.cybutton {
+    color: hsl(184, 100%, 22%);
+}
+
+.darbutton {
+    color: hsl(179, 100%, 13%);
+}
+.cybutton:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 1px solid white;
+}
+.orbutton:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 1px solid white;
+}
+.darbutton:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 1px solid white;
+}
+@media (max-width: 600px) {
+    .flex {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .orange {
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .darkcyan {
+        border-radius: 0px 0px 10px 10px;
+    }
+  }
