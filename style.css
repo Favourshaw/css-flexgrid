@@ -31,24 +31,24 @@ p {
 
 .orange {
     background-color: hsl(31, 77%, 52%);
-    padding: 1em;
-    flex: 30%;
+    padding: 30px;
+    flex: 33.33%;
     color: hsla(0, 0%, 100%, 0.75);
     border-radius: 10px 0px 0px 10px;
     
 }
 .cyan {
     background-color: hsl(184, 100%, 22%);
-    padding: 1em;
-    flex: 30%;
+    padding: 30px;
+    flex: 33.33%;
     color: hsla(0, 0%, 100%, 0.75);
     
 }
 
 .darkcyan {
     background-color: hsl(179, 100%, 13%);
-    padding: 1em;
-    flex: 30%;
+    padding: 30px;
+    flex: 33.33%;
     color: hsla(0, 0%, 100%, 0.75);
     border-radius: 0px 10px 10px 0px;
     
@@ -87,10 +87,11 @@ button {
     color: white;
     border: 1px solid white;
 }
-@media (max-width: 600px) {
-    .flex {
-      flex: 100%;
-      max-width: 100%;
+@media (max-width: 800px) {
+    .orange, .darkcyan, .cyan, .box {
+      flex-direction: column;
+      width: 80%;
+      padding: 20px;
     }
     .orange {
         border-radius: 10px 10px 0px 0px;
